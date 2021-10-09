@@ -1,9 +1,10 @@
 import React from "react";
+import { Route } from "react-router-dom";
 
 const DefaultLayout = (props) => {
     return(
         <>
-            <h1>Default Layout</h1>
+            <h1 className="text-xl">Default Layout</h1>
             {props.children}
         </>
     );
