@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors: {
         navc: {
-          50: "rgb(46, 49, 71)"
+          50: "rgb(46, 49, 65)",
+          100: "rgb(34, 37, 57)"
         }
       }
     },
